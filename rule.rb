@@ -60,4 +60,6 @@ all.each do |directory, resources|
     end
   end
 
+  Dir.chdir('..')
+
 end
