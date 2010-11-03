@@ -27,6 +27,7 @@ all = {
     'jQuery-AutoComplete-Matchable' => 'git@github.com:pr0d1r2/jQuery-AutoComplete-Matchable.git',
     'active_record_connectionless'  => 'git@github.com:pr0d1r2/active_record_connectionless.git',
     'site_assimilator'              => 'git@github.com:pr0d1r2/site_assimilator.git',
+    'ebook_assimilator'             => 'git@github.com:pr0d1r2/ebook_assimilator.git',
     'the_one'                       => 'git@github.com:pr0d1r2/the_one.git'
   },
   'sources' => {
