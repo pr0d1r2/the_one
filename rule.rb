@@ -29,6 +29,7 @@ all = {
     'site_assimilator'              => 'git@github.com:pr0d1r2/site_assimilator.git',
     'ebook_assimilator'             => 'git@github.com:pr0d1r2/ebook_assimilator.git',
     'AppliCage'                     => 'git@github.com:doubledrones/AppliCage.git',
+    'polish_remote_it_worker_survey' => 'git@github.com:pr0d1r2/polish_remote_it_worker_survey.git',
     'the_one'                       => 'git@github.com:pr0d1r2/the_one.git'
   },
   'sources' => {
