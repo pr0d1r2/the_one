@@ -43,11 +43,21 @@ all = {
     'gettext-experteer'              => 'http://github.com/experteer/gettext.git',
     'winnie'                         => 'http://github.com/Ragnarson/winnie.git',
     'eotb_rails_plugin-ragnarson'    => 'http://github.com/Ragnarson/eotb_rails_plugin.git'
+  },
+  'sources_svn' => {
+    'iTerm2'                         => 'http://iterm2.googlecode.com/svn/trunk/'
   }
 }
 
 
 all.each do |directory, resources|
+
+  if directory.include?('_svn')
+    svn = true
+    directory = directory.gsub('_svn', '')
+  else
+    svn = false
+  end
 
   Dir.mkdir("#{directory}") unless File.directory?(directory)
   Dir.chdir("#{directory}")
@@ -60,10 +70,18 @@ all.each do |directory, resources|
     end
     if File.directory?(resource_name)
       Dir.chdir(resource_name)
-      system("git pull")
+      if svn
+        system("svn update")
+      else
+        system("git pull")
+      end
       Dir.chdir('..')
     else
-      system("git clone --recursive #{repository} #{resource_name}")
+      if svn
+        system("svn checkout #{repository} #{resource_name}")
+      else
+        system("git clone --recursive #{repository} #{resource_name}")
+      end
     end
   end
 
