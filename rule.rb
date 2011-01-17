@@ -55,6 +55,9 @@ all.each do |directory, resources|
   resources.each do |resource_name, repository|
     puts
     puts "#{resource_name} (#{repository})"
+    if File.exist?(File.join(resource_name, '.rvmrc'))
+      system("rvm rvmrc trust #{resource_name}")
+    end
     if File.directory?(resource_name)
       Dir.chdir(resource_name)
       system("git pull")
