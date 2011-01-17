@@ -63,7 +63,7 @@ all.each do |directory, resources|
       system("git pull")
       Dir.chdir('..')
     else
-      system("git clone #{repository} #{resource_name}")
+      system("git clone --recursive #{repository} #{resource_name}")
     end
   end
 
