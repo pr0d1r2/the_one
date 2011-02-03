@@ -32,6 +32,7 @@ all = {
     'polish_remote_it_worker_survey' => 'git@github.com:pr0d1r2/polish_remote_it_worker_survey.git',
     'dotmatrix'                      => 'git@github.com:doubledrones/dotmatrix.git',
     'youtubber'                      => 'git@github.com:pr0d1r2/youtubber.git',
+    'currencies'                     => 'git@github.com:doubledrones/currencies.git',
     'the_one'                        => 'git@github.com:pr0d1r2/the_one.git'
   },
   'sources' => {
