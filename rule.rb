@@ -29,6 +29,7 @@ all = {
     'site_assimilator'               => 'git@github.com:pr0d1r2/site_assimilator.git',
     'ebook_assimilator'              => 'git@github.com:pr0d1r2/ebook_assimilator.git',
     'applicage'                      => 'git@github.com:doubledrones/applicage.git',
+    'applicage-assets'               => 'git@github.com:doubledrones/applicage-assets.git',
     'polish_remote_it_worker_survey' => 'git@github.com:pr0d1r2/polish_remote_it_worker_survey.git',
     'dotmatrix'                      => 'git@github.com:doubledrones/dotmatrix.git',
     'youtubber'                      => 'git@github.com:pr0d1r2/youtubber.git',
