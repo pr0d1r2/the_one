@@ -47,7 +47,8 @@ all = {
     'awesome_nested_set-experteer'   => 'http://github.com/experteer/awesome_nested_set.git',
     'gettext-experteer'              => 'http://github.com/experteer/gettext.git',
     'winnie'                         => 'http://github.com/Ragnarson/winnie.git',
-    'eotb_rails_plugin-ragnarson'    => 'http://github.com/Ragnarson/eotb_rails_plugin.git'
+    'eotb_rails_plugin-ragnarson'    => 'http://github.com/Ragnarson/eotb_rails_plugin.git',
+    'vim-robot'                      => 'https://github.com/mrmargolis/robot-vim.git',
   },
   'sources_svn' => {
     'iTerm2'                         => 'http://iterm2.googlecode.com/svn/trunk/'
