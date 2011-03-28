@@ -36,7 +36,7 @@ all = {
     'currencies'                     => 'git@github.com:hexorx/currencies.git',
     'countries'                      => 'git@github.com:hexorx/countries.git',
     'neural_processor'               => 'git@github.com:pr0d1r2/neural_processor.git',
-    'the_one'                        => 'git@github.com:pr0d1r2/the_one.git'
+    'the_one'                        => 'git@github.com:pr0d1r2/the_one.git',
   },
   'sources' => {
     'SweetFM'                        => 'git://github.com/sweetfm/SweetFM.git',
