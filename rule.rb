@@ -37,6 +37,7 @@ all = {
     'countries'                      => 'git@github.com:hexorx/countries.git',
     'neural_processor'               => 'git@github.com:pr0d1r2/neural_processor.git',
     'the_one'                        => 'git@github.com:pr0d1r2/the_one.git',
+    'TVShows'                        => 'git@github.com:pr0d1r2/TVShows.git',
   },
   'sources' => {
     'SweetFM'                        => 'git://github.com/sweetfm/SweetFM.git',
@@ -49,6 +50,7 @@ all = {
     'winnie'                         => 'http://github.com/Ragnarson/winnie.git',
     'eotb_rails_plugin-ragnarson'    => 'http://github.com/Ragnarson/eotb_rails_plugin.git',
     'vim-robot'                      => 'https://github.com/mrmargolis/robot-vim.git',
+    'compass-susy-plugin'            => 'git://github.com/ericam/compass-susy-plugin.git'
   },
   'sources_svn' => {
     'iTerm2'                         => 'http://iterm2.googlecode.com/svn/trunk/'
