@@ -173,7 +173,7 @@ all.each do |directory, resources|
       if svn
         system("svn update")
       else
-        system("git pull")
+        system("git pull --recurse-submodules")
       end
       Dir.chdir('..')
     else
