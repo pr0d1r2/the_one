@@ -4,56 +4,148 @@ Dir.chdir ENV['HOME']
 
 all = {
   'projects' => {
-    'excerpt-fu-experteer'           => 'git@github.com:experteer/excerpt-fu.git',
-    'central_plexus'                 => 'git@github.com:doubledrones/central_plexus.git',
-    'excerpt-fu'                     => 'git@github.com:doubledrones/excerpt-fu.git',
-    'doubledrones.github.com'        => 'git@github.com:doubledrones/doubledrones.github.com.git',
-    'coworking.czest.pl'             => 'git@github.com:doubledrones/coworking.czest.pl.git',
-    'rails'                          => 'git@github.com:doubledrones/rails.git',
-    'metric_fu'                      => 'git@github.com:doubledrones/metric_fu.git',
-    'remarkable'                     => 'git@github.com:doubledrones/remarkable.git',
-    'annotate_models'                => 'git@github.com:doubledrones/annotate_models.git',
-    'i18n_routing'                   => 'git@github.com:doubledrones/i18n_routing.git',
-    'most_nested_hash'               => 'git@github.com:doubledrones/most_nested_hash.git',
-    'iKey_generators'                => 'git@github.com:pr0d1r2/iKey_generators.git',
-    'pr0d1r2.github.com'             => 'git@github.com:pr0d1r2/pr0d1r2.github.com.git',
-    'active_record_maintainers'      => 'git@github.com:pr0d1r2/active_record_maintainers.git',
-    'bds'                            => 'git@github.com:pr0d1r2/bds.git',
-    'paperclip-time-stamped'         => 'git@github.com:pr0d1r2/paperclip-time-stamped.git',
-    'with_filled_field_scope'        => 'git@github.com:pr0d1r2/with_filled_field_scope.git',
-    'geokit-gem'                     => 'git@github.com:pr0d1r2/geokit-gem.git',
-    'active_record_geocodable'       => 'git@github.com:pr0d1r2/active_record_geocodable.git',
-    'ipv4_address'                   => 'git@github.com:pr0d1r2/ipv4_address.git',
-    'jQuery-AutoComplete-Matchable'  => 'git@github.com:pr0d1r2/jQuery-AutoComplete-Matchable.git',
-    'active_record_connectionless'   => 'git@github.com:pr0d1r2/active_record_connectionless.git',
-    'site_assimilator'               => 'git@github.com:pr0d1r2/site_assimilator.git',
-    'ebook_assimilator'              => 'git@github.com:pr0d1r2/ebook_assimilator.git',
-    'applicage'                      => 'git@github.com:doubledrones/applicage.git',
-    'applicage-assets'               => 'git@github.com:doubledrones/applicage-assets.git',
-    'polish_remote_it_worker_survey' => 'git@github.com:pr0d1r2/polish_remote_it_worker_survey.git',
-    'dotmatrix'                      => 'git@github.com:doubledrones/dotmatrix.git',
-    'youtubber'                      => 'git@github.com:pr0d1r2/youtubber.git',
-    'currencies'                     => 'git@github.com:hexorx/currencies.git',
-    'countries'                      => 'git@github.com:hexorx/countries.git',
-    'neural_processor'               => 'git@github.com:pr0d1r2/neural_processor.git',
-    'the_one'                        => 'git@github.com:pr0d1r2/the_one.git',
-    'TVShows'                        => 'git@github.com:pr0d1r2/TVShows.git',
+    'excerpt-fu-experteer'           => {
+      :source => 'git@github.com:experteer/excerpt-fu.git',
+    },
+    'central_plexus'                 => {
+      :source => 'git@github.com:doubledrones/central_plexus.git',
+    },
+    'excerpt-fu'                     => {
+      :source => 'git@github.com:doubledrones/excerpt-fu.git',
+    },
+    'doubledrones.github.com'        => {
+      :source => 'git@github.com:doubledrones/doubledrones.github.com.git',
+    },
+    'coworking.czest.pl'             => {
+      :source => 'git@github.com:doubledrones/coworking.czest.pl.git',
+    },
+    'rails'                          => {
+      :source => 'git@github.com:doubledrones/rails.git',
+    },
+    'metric_fu'                      => {
+      :source => 'git@github.com:doubledrones/metric_fu.git',
+    },
+    'remarkable'                     => {
+      :source => 'git@github.com:doubledrones/remarkable.git',
+    },
+    'annotate_models'                => {
+      :source => 'git@github.com:doubledrones/annotate_models.git',
+    },
+    'i18n_routing'                   => {
+      :source => 'git@github.com:doubledrones/i18n_routing.git',
+    },
+    'most_nested_hash'               => {
+      :source => 'git@github.com:doubledrones/most_nested_hash.git',
+    },
+    'iKey_generators'                => {
+      :source => 'git@github.com:pr0d1r2/iKey_generators.git',
+    },
+    'pr0d1r2.github.com'             => {
+      :source => 'git@github.com:pr0d1r2/pr0d1r2.github.com.git',
+    },
+    'active_record_maintainers'      => {
+      :source => 'git@github.com:pr0d1r2/active_record_maintainers.git',
+    },
+    'bds'                            => {
+      :source => 'git@github.com:pr0d1r2/bds.git',
+    },
+    'paperclip-time-stamped'         => {
+      :source => 'git@github.com:pr0d1r2/paperclip-time-stamped.git',
+    },
+    'with_filled_field_scope'        => {
+      :source => 'git@github.com:pr0d1r2/with_filled_field_scope.git',
+    },
+    'geokit-gem'                     => {
+      :source => 'git@github.com:pr0d1r2/geokit-gem.git',
+    },
+    'active_record_geocodable'       => {
+      :source => 'git@github.com:pr0d1r2/active_record_geocodable.git',
+    },
+    'ipv4_address'                   => {
+      :source => 'git@github.com:pr0d1r2/ipv4_address.git',
+    },
+    'jQuery-AutoComplete-Matchable'  => {
+      :source => 'git@github.com:pr0d1r2/jQuery-AutoComplete-Matchable.git',
+    },
+    'active_record_connectionless'   => {
+      :source => 'git@github.com:pr0d1r2/active_record_connectionless.git',
+    },
+    'site_assimilator'               => {
+      :source => 'git@github.com:pr0d1r2/site_assimilator.git',
+    },
+    'ebook_assimilator'              => {
+      :source => 'git@github.com:pr0d1r2/ebook_assimilator.git',
+    },
+    'applicage'                      => {
+      :source => 'git@github.com:doubledrones/applicage.git',
+    },
+    'applicage-assets'               => {
+      :source => 'git@github.com:doubledrones/applicage-assets.git',
+    },
+    'polish_remote_it_worker_survey' => {
+      :source => 'git@github.com:pr0d1r2/polish_remote_it_worker_survey.git',
+    },
+    'dotmatrix'                      => {
+      :source => 'git@github.com:doubledrones/dotmatrix.git',
+    },
+    'youtubber'                      => {
+      :source => 'git@github.com:pr0d1r2/youtubber.git',
+    },
+    'currencies'                     => {
+      :source => 'git@github.com:hexorx/currencies.git',
+    },
+    'countries'                      => {
+      :source => 'git@github.com:hexorx/countries.git',
+    },
+    'neural_processor'               => {
+      :source => 'git@github.com:pr0d1r2/neural_processor.git',
+    },
+    'the_one'                        => {
+      :source => 'git@github.com:pr0d1r2/the_one.git',
+    },
+    'TVShows'                        => {
+      :source => 'git@github.com:pr0d1r2/TVShows.git',
+    },
   },
   'sources' => {
-    'SweetFM'                        => 'git://github.com/sweetfm/SweetFM.git',
-    'workling-experteer'             => 'http://github.com/experteer/workling.git',
-    'grantprix-experteer'            => 'http://github.com/experteer/grantprix.git',
-    'rails-experteer'                => 'git@github.com:experteer/rails.git',
-    'attribute_normalizer-experteer' => 'http://github.com/experteer/attribute_normalizer.git',
-    'awesome_nested_set-experteer'   => 'http://github.com/experteer/awesome_nested_set.git',
-    'gettext-experteer'              => 'http://github.com/experteer/gettext.git',
-    'winnie'                         => 'http://github.com/Ragnarson/winnie.git',
-    'eotb_rails_plugin-ragnarson'    => 'http://github.com/Ragnarson/eotb_rails_plugin.git',
-    'vim-robot'                      => 'https://github.com/mrmargolis/robot-vim.git',
-    'compass-susy-plugin'            => 'git://github.com/ericam/compass-susy-plugin.git'
+    'SweetFM'                        => {
+      :source => 'git://github.com/sweetfm/SweetFM.git',
+    },
+    'workling-experteer'             => {
+      :source => 'http://github.com/experteer/workling.git',
+    },
+    'grantprix-experteer'            => {
+      :source => 'http://github.com/experteer/grantprix.git',
+    },
+    'rails-experteer'                => {
+      :source => 'git@github.com:experteer/rails.git',
+    },
+    'attribute_normalizer-experteer' => {
+      :source => 'http://github.com/experteer/attribute_normalizer.git',
+    },
+    'awesome_nested_set-experteer'   => {
+      :source => 'http://github.com/experteer/awesome_nested_set.git',
+    },
+    'gettext-experteer'              => {
+      :source => 'http://github.com/experteer/gettext.git',
+    },
+    'winnie'                         => {
+      :source => 'http://github.com/Ragnarson/winnie.git',
+    },
+    'eotb_rails_plugin-ragnarson'    => {
+      :source => 'http://github.com/Ragnarson/eotb_rails_plugin.git',
+    },
+    'vim-robot'                      => {
+      :source => 'https://github.com/mrmargolis/robot-vim.git',
+    },
+    'compass-susy-plugin'            => {
+      :source => 'git://github.com/ericam/compass-susy-plugin.git',
+    },
   },
   'sources_svn' => {
-    'iTerm2'                         => 'http://iterm2.googlecode.com/svn/trunk/'
+    'iTerm2'                         => {
+      :source => 'http://iterm2.googlecode.com/svn/trunk/'
+    },
   }
 }
 
