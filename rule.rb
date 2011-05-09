@@ -106,6 +106,9 @@ all = {
     'TVShows' => {
       :source => 'git@github.com:pr0d1r2/TVShows.git',
     },
+    'things-logbook-backup' => {
+      :source => 'git@github.com:pr0d1r2/things-logbook-backup.git',
+    },
   },
   'sources' => {
     'SweetFM' => {
