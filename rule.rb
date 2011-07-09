@@ -144,6 +144,9 @@ all = {
     'compass-susy-plugin' => {
       :source => 'git://github.com/ericam/compass-susy-plugin.git',
     },
+    'iTerm2-gnachman' => {
+      :source => 'https://github.com/gnachman/iTerm2.git'
+    },
   },
   'sources_svn' => {
     'iTerm2' => {
