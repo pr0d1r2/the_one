@@ -147,6 +147,9 @@ all = {
     'iTerm2-gnachman' => {
       :source => 'https://github.com/gnachman/iTerm2.git'
     },
+    'wycats-net-http' => {
+      :source => 'https://github.com/wycats/net-http.git'
+    },
   },
   'sources_svn' => {
     'iTerm2' => {
