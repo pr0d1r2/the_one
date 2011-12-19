@@ -19,9 +19,6 @@ all = {
     'coworking.czest.pl' => {
       :source => 'git@github.com:doubledrones/coworking.czest.pl.git',
     },
-    'rails' => {
-      :source => 'git@github.com:doubledrones/rails.git',
-    },
     'metric_fu' => {
       :source => 'git@github.com:doubledrones/metric_fu.git',
     },
@@ -78,9 +75,6 @@ all = {
     },
     'applicage' => {
       :source => 'git@github.com:doubledrones/applicage.git',
-    },
-    'applicage-assets' => {
-      :source => 'git@github.com:doubledrones/applicage-assets.git',
     },
     'polish_remote_it_worker_survey' => {
       :source => 'git@github.com:pr0d1r2/polish_remote_it_worker_survey.git',
