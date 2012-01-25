@@ -70,7 +70,7 @@ all = {
     'site_assimilator' => {
       :source => 'git@github.com:pr0d1r2/site_assimilator.git',
     },
-    'ebook_assimilator' => {
+    'pr0d1r2-ebook_assimilator' => {
       :source => 'git@github.com:pr0d1r2/ebook_assimilator.git',
     },
     'applicage' => {
