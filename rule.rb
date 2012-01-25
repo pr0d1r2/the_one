@@ -43,7 +43,7 @@ all = {
     'active_record_maintainers' => {
       :source => 'git@github.com:pr0d1r2/active_record_maintainers.git',
     },
-    'bds' => {
+    'pr0d1r2-bds' => {
       :source => 'git@github.com:pr0d1r2/bds.git',
     },
     'paperclip-time-stamped' => {
