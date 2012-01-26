@@ -34,40 +34,40 @@ all = {
     'most_nested_hash' => {
       :source => 'git@github.com:doubledrones/most_nested_hash.git',
     },
-    'iKey_generators' => {
+    'pr0d1r2-iKey_generators' => {
       :source => 'git@github.com:pr0d1r2/iKey_generators.git',
     },
     'pr0d1r2.github.com' => {
       :source => 'git@github.com:pr0d1r2/pr0d1r2.github.com.git',
     },
-    'active_record_maintainers' => {
+    'pr0d1r2-active_record_maintainers' => {
       :source => 'git@github.com:pr0d1r2/active_record_maintainers.git',
     },
     'pr0d1r2-bds' => {
       :source => 'git@github.com:pr0d1r2/bds.git',
     },
-    'paperclip-time-stamped' => {
+    'pr0d1r2-paperclip-time-stamped' => {
       :source => 'git@github.com:pr0d1r2/paperclip-time-stamped.git',
     },
-    'with_filled_field_scope' => {
+    'pr0d1r2-with_filled_field_scope' => {
       :source => 'git@github.com:pr0d1r2/with_filled_field_scope.git',
     },
-    'geokit-gem' => {
+    'pr0d1r2-geokit-gem' => {
       :source => 'git@github.com:pr0d1r2/geokit-gem.git',
     },
-    'active_record_geocodable' => {
+    'pr0d1r2-active_record_geocodable' => {
       :source => 'git@github.com:pr0d1r2/active_record_geocodable.git',
     },
-    'ipv4_address' => {
+    'pr0d1r2-ipv4_address' => {
       :source => 'git@github.com:pr0d1r2/ipv4_address.git',
     },
-    'jQuery-AutoComplete-Matchable' => {
+    'pr0d1r2-jQuery-AutoComplete-Matchable' => {
       :source => 'git@github.com:pr0d1r2/jQuery-AutoComplete-Matchable.git',
     },
-    'active_record_connectionless' => {
+    'pr0d1r2-active_record_connectionless' => {
       :source => 'git@github.com:pr0d1r2/active_record_connectionless.git',
     },
-    'site_assimilator' => {
+    'pr0d1r2-site_assimilator' => {
       :source => 'git@github.com:pr0d1r2/site_assimilator.git',
     },
     'pr0d1r2-ebook_assimilator' => {
@@ -76,13 +76,13 @@ all = {
     'applicage' => {
       :source => 'git@github.com:doubledrones/applicage.git',
     },
-    'polish_remote_it_worker_survey' => {
+    'pr0d1r2-polish_remote_it_worker_survey' => {
       :source => 'git@github.com:pr0d1r2/polish_remote_it_worker_survey.git',
     },
     'dotmatrix' => {
       :source => 'git@github.com:doubledrones/dotmatrix.git',
     },
-    'youtubber' => {
+    'pr0d1r2-youtubber' => {
       :source => 'git@github.com:pr0d1r2/youtubber.git',
     },
     'currencies' => {
@@ -91,16 +91,16 @@ all = {
     'countries' => {
       :source => 'git@github.com:hexorx/countries.git',
     },
-    'neural_processor' => {
+    'pr0d1r2-neural_processor' => {
       :source => 'git@github.com:pr0d1r2/neural_processor.git',
     },
-    'the_one' => {
+    'pr0d1r2-the_one' => {
       :source => 'git@github.com:pr0d1r2/the_one.git',
     },
-    'TVShows' => {
+    'pr0d1r2-TVShows' => {
       :source => 'git@github.com:pr0d1r2/TVShows.git',
     },
-    'things-logbook-backup' => {
+    'pr0d1r2-things-logbook-backup' => {
       :source => 'git@github.com:pr0d1r2/things-logbook-backup.git',
     },
   },
